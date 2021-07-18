@@ -1,0 +1,102 @@
+{
+  "uid" : "cbba2b86dfaacdaa",
+  "name" : "Verify Author Name -- @1.2 ",
+  "fullName" : "Verify if Author Name is correct as per the query parameter in the API GET request.: Verify Author Name",
+  "historyId" : "f7a82c3fb04a75e50b237470d1b26d05",
+  "time" : {
+    "start" : 1626600279156,
+    "stop" : 1626600279662,
+    "duration" : 506
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the API request",
+      "time" : {
+        "start" : 1626600279157,
+        "stop" : 1626600279158,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When we execute the GET API request based on author name value :: albert-einstein",
+      "time" : {
+        "start" : 1626600279158,
+        "stop" : 1626600279660,
+        "duration" : 502
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then the response should list all the quotes which have author name as the albert-einstein",
+      "time" : {
+        "start" : 1626600279660,
+        "stop" : 1626600279662,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Verify if Author Name is correct as per the query parameter in the API GET request."
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "authorname",
+    "value" : "albert-einstein"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cbba2b86dfaacdaa.json",
+  "parameterValues" : [ "albert-einstein" ]
+}

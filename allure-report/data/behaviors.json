@@ -1,0 +1,125 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Verify if Author Name is correct as per the query parameter in the API GET request.",
+    "children" : [ {
+      "name" : "Verify Author Name -- @1.1 ",
+      "uid" : "34d0b767483dceae",
+      "parentUid" : "3068b96e1dfebc421a7a9c54f949df29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626600277834,
+        "stop" : 1626600279155,
+        "duration" : 1321
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "eric-hoffer" ]
+    }, {
+      "name" : "Verify Author Name -- @1.2 ",
+      "uid" : "cbba2b86dfaacdaa",
+      "parentUid" : "3068b96e1dfebc421a7a9c54f949df29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626600279156,
+        "stop" : 1626600279662,
+        "duration" : 506
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "albert-einstein" ]
+    } ],
+    "uid" : "3068b96e1dfebc421a7a9c54f949df29"
+  }, {
+    "name" : "Verify if Page number is correct as per the query parameter in the API GET request.",
+    "children" : [ {
+      "name" : "Verify Page Number -- @1.1 ",
+      "uid" : "358337d08ba4cb10",
+      "parentUid" : "1ab1e0c5f048f667fe630661b0af9f0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626600279666,
+        "stop" : 1626600280291,
+        "duration" : 625
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1" ]
+    }, {
+      "name" : "Verify Page Number -- @1.2 ",
+      "uid" : "be17f9d36caa7516",
+      "parentUid" : "1ab1e0c5f048f667fe630661b0af9f0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626600280292,
+        "stop" : 1626600280826,
+        "duration" : 534
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2" ]
+    } ],
+    "uid" : "1ab1e0c5f048f667fe630661b0af9f0c"
+  }, {
+    "name" : "Verify Response after filtering by tag name AND author name",
+    "children" : [ {
+      "name" : "Verify Response after filtering by tag name and author name -- @1.1 ",
+      "uid" : "35427277e813964a",
+      "parentUid" : "52a043ae9a25df358f4ca3c0a71a8ef0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626600280828,
+        "stop" : 1626600281360,
+        "duration" : 532
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ null, "albert-einstein", "famous-quotes|wisdom" ]
+    }, {
+      "name" : "Verify Response after filtering by tag name and author name -- @1.2 ",
+      "uid" : "7120bbb46140ff1e",
+      "parentUid" : "52a043ae9a25df358f4ca3c0a71a8ef0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626600281361,
+        "stop" : 1626600281793,
+        "duration" : 432
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ null, "confucius", "famous-quotes,wisdom" ]
+    } ],
+    "uid" : "52a043ae9a25df358f4ca3c0a71a8ef0"
+  }, {
+    "name" : "Verify if tag value is correct as per the query parameter in the API GET request.",
+    "children" : [ {
+      "name" : "Verify tag value -- @1.1 ",
+      "uid" : "518bdbaf3e0f4c0d",
+      "parentUid" : "94eff70f60f07324fb41b83984ddc5eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626600281794,
+        "stop" : 1626600282200,
+        "duration" : 406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "technology,famous-quotes" ]
+    }, {
+      "name" : "Verify tag value -- @1.2 ",
+      "uid" : "3393759cd8972cc1",
+      "parentUid" : "94eff70f60f07324fb41b83984ddc5eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626600282201,
+        "stop" : 1626600282774,
+        "duration" : 573
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "famous-quotes|science" ]
+    } ],
+    "uid" : "94eff70f60f07324fb41b83984ddc5eb"
+  } ],
+  "name" : "behaviors"
+}

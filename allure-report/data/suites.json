@@ -1,0 +1,109 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Verify Author Name -- @1.1 ",
+    "uid" : "34d0b767483dceae",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626600277834,
+      "stop" : 1626600279155,
+      "duration" : 1321
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "eric-hoffer" ]
+  }, {
+    "name" : "Verify Author Name -- @1.2 ",
+    "uid" : "cbba2b86dfaacdaa",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626600279156,
+      "stop" : 1626600279662,
+      "duration" : 506
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "albert-einstein" ]
+  }, {
+    "name" : "Verify Page Number -- @1.1 ",
+    "uid" : "358337d08ba4cb10",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626600279666,
+      "stop" : 1626600280291,
+      "duration" : 625
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1" ]
+  }, {
+    "name" : "Verify Page Number -- @1.2 ",
+    "uid" : "be17f9d36caa7516",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626600280292,
+      "stop" : 1626600280826,
+      "duration" : 534
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2" ]
+  }, {
+    "name" : "Verify Response after filtering by tag name and author name -- @1.1 ",
+    "uid" : "35427277e813964a",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626600280828,
+      "stop" : 1626600281360,
+      "duration" : 532
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ null, "albert-einstein", "famous-quotes|wisdom" ]
+  }, {
+    "name" : "Verify Response after filtering by tag name and author name -- @1.2 ",
+    "uid" : "7120bbb46140ff1e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626600281361,
+      "stop" : 1626600281793,
+      "duration" : 432
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ null, "confucius", "famous-quotes,wisdom" ]
+  }, {
+    "name" : "Verify tag value -- @1.1 ",
+    "uid" : "518bdbaf3e0f4c0d",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626600281794,
+      "stop" : 1626600282200,
+      "duration" : 406
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "technology,famous-quotes" ]
+  }, {
+    "name" : "Verify tag value -- @1.2 ",
+    "uid" : "3393759cd8972cc1",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626600282201,
+      "stop" : 1626600282774,
+      "duration" : 573
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "famous-quotes|science" ]
+  } ],
+  "name" : "suites"
+}
