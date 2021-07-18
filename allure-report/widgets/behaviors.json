@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "3068b96e1dfebc421a7a9c54f949df29",
+    "name" : "Verify if Author Name is correct as per the query parameter in the API GET request.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "1ab1e0c5f048f667fe630661b0af9f0c",
+    "name" : "Verify if Page number is correct as per the query parameter in the API GET request.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "52a043ae9a25df358f4ca3c0a71a8ef0",
+    "name" : "Verify Response after filtering by tag name AND author name",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "94eff70f60f07324fb41b83984ddc5eb",
+    "name" : "Verify if tag value is correct as per the query parameter in the API GET request.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

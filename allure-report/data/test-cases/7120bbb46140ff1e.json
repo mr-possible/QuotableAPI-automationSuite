@@ -1,0 +1,108 @@
+{
+  "uid" : "7120bbb46140ff1e",
+  "name" : "Verify Response after filtering by tag name and author name -- @1.2 ",
+  "fullName" : "Verify Response after filtering by tag name AND author name: Verify Response after filtering by tag name and author name",
+  "historyId" : "34577f2ee0e66868bd586e1d0e2115da",
+  "time" : {
+    "start" : 1626600281361,
+    "stop" : 1626600281793,
+    "duration" : 432
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the API request",
+      "time" : {
+        "start" : 1626600281362,
+        "stop" : 1626600281362,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When We execute API request with famous-quotes,wisdom and confucius",
+      "time" : {
+        "start" : 1626600281363,
+        "stop" : 1626600281791,
+        "duration" : 428
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then Check response with famous-quotes,wisdom and confucius",
+      "time" : {
+        "start" : 1626600281791,
+        "stop" : 1626600281793,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Verify Response after filtering by tag name AND author name"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ { }, {
+    "name" : "authorname",
+    "value" : "confucius"
+  }, {
+    "name" : "tags",
+    "value" : "famous-quotes,wisdom"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression" ]
+  },
+  "source" : "7120bbb46140ff1e.json",
+  "parameterValues" : [ null, "confucius", "famous-quotes,wisdom" ]
+}

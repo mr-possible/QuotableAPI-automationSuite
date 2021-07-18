@@ -1,0 +1,108 @@
+{
+  "uid" : "35427277e813964a",
+  "name" : "Verify Response after filtering by tag name and author name -- @1.1 ",
+  "fullName" : "Verify Response after filtering by tag name AND author name: Verify Response after filtering by tag name and author name",
+  "historyId" : "9830efa44a4035425d0d23dffc39df30",
+  "time" : {
+    "start" : 1626600280828,
+    "stop" : 1626600281360,
+    "duration" : 532
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the API request",
+      "time" : {
+        "start" : 1626600280829,
+        "stop" : 1626600280829,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When We execute API request with famous-quotes|wisdom and albert-einstein",
+      "time" : {
+        "start" : 1626600280830,
+        "stop" : 1626600281356,
+        "duration" : 526
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then Check response with famous-quotes|wisdom and albert-einstein",
+      "time" : {
+        "start" : 1626600281357,
+        "stop" : 1626600281360,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Verify Response after filtering by tag name AND author name"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ { }, {
+    "name" : "authorname",
+    "value" : "albert-einstein"
+  }, {
+    "name" : "tags",
+    "value" : "famous-quotes|wisdom"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression" ]
+  },
+  "source" : "35427277e813964a.json",
+  "parameterValues" : [ null, "albert-einstein", "famous-quotes|wisdom" ]
+}

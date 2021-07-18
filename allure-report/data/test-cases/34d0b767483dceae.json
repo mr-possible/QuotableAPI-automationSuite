@@ -1,0 +1,102 @@
+{
+  "uid" : "34d0b767483dceae",
+  "name" : "Verify Author Name -- @1.1 ",
+  "fullName" : "Verify if Author Name is correct as per the query parameter in the API GET request.: Verify Author Name",
+  "historyId" : "e6a89c8b57f4f4d03265c4feef944621",
+  "time" : {
+    "start" : 1626600277834,
+    "stop" : 1626600279155,
+    "duration" : 1321
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the API request",
+      "time" : {
+        "start" : 1626600277835,
+        "stop" : 1626600277836,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When we execute the GET API request based on author name value :: eric-hoffer",
+      "time" : {
+        "start" : 1626600277836,
+        "stop" : 1626600279155,
+        "duration" : 1319
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then the response should list all the quotes which have author name as the eric-hoffer",
+      "time" : {
+        "start" : 1626600279155,
+        "stop" : 1626600279155,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Verify if Author Name is correct as per the query parameter in the API GET request."
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "authorname",
+    "value" : "eric-hoffer"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34d0b767483dceae.json",
+  "parameterValues" : [ "eric-hoffer" ]
+}
