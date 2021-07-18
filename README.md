@@ -1,11 +1,11 @@
 # QuotableAPI-automationSuite
 
-This is an API test automation solution which caters to the following set of tests viz.,
+This is a small API test automation solution which caters to the following set of tests: 
 
 * Smoke tests
 * Regression
 
-# Technology Stack used in making this repository : 
+# Technology Stack used in making this repository 
  - ##### BDD - <u>behave</u>
  - #### Language - <u>Python 3.9 </u>
  - #### IDE - <u>PyCharm</u>
@@ -65,6 +65,21 @@ QuotableAPI-automation
  - After above command, run the following command to generate the report :      
         ``` 
         allure generate ./AllureReports --clean 
+        ```
+
+### <i>Optional Step (A)</i> :
+ - There may be instances where the tester may want to run specific suites, i.e., regression or smoke.
+    - In such cases, the ``behave`` utility provides us with a tagging mechanism to categorise any feature file with some tags like @regression or @smoke.
+    - If we want to run only regression related cases, then please run the following command : 
+        ```
+            behave -f allure_behave.formatter:AllureFormatter -o AllureReports --tags=regression
+        ```
+### <i>Optional Step (B)</i> :
+ - There may also be instances where the tester may want to see the logs/console prints for debugging at times.
+    - In such cases, the ``behave`` utility provides us with an extra attribute in the command to do just this.
+    - Please run the following command : 
+        ```
+            behave --no capture -f allure_behave.formatter:AllureFormatter -o AllureReports --tags=regression
         ```
 
 ### <i>Final Step</i> :
