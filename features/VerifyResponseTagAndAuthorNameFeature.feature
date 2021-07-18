@@ -1,5 +1,6 @@
 Feature: Verify Response after filtering by tag name AND author name
 
+  @regression
   Scenario Outline: Verify Response after filtering by tag name and author name
     Given the API request
     When We execute API request with <tags> and <authorname>
