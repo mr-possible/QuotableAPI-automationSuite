@@ -1,0 +1,81 @@
+[ {
+  "uid" : "b98bfd7036f1d2b8",
+  "name" : "Verify Page Number -- @1.2 ",
+  "time" : {
+    "start" : 1626588977395,
+    "stop" : 1626588977884,
+    "duration" : 489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe0a0c1559c5a78",
+  "name" : "Verify Response after filtering by tag name and author name -- @1.2 ",
+  "time" : {
+    "start" : 1626588978448,
+    "stop" : 1626588978856,
+    "duration" : 408
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4aefc3ccfa580361",
+  "name" : "Verify Page Number -- @1.2 ",
+  "time" : {
+    "start" : 1626588976055,
+    "stop" : 1626588976873,
+    "duration" : 818
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18baca1231d44454",
+  "name" : "Verify Page Number -- @1.1 ",
+  "time" : {
+    "start" : 1626588978857,
+    "stop" : 1626588979271,
+    "duration" : 414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fda758693c742435",
+  "name" : "Verify Page Number -- @1.1 ",
+  "time" : {
+    "start" : 1626588976877,
+    "stop" : 1626588977394,
+    "duration" : 517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58b887575a47055f",
+  "name" : "Verify Page Number -- @1.1 ",
+  "time" : {
+    "start" : 1626588974571,
+    "stop" : 1626588976052,
+    "duration" : 1481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "353d175a87ed2b98",
+  "name" : "Verify Response after filtering by tag name and author name -- @1.1 ",
+  "time" : {
+    "start" : 1626588977891,
+    "stop" : 1626588978447,
+    "duration" : 556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8813d1c152185610",
+  "name" : "Verify Page Number -- @1.2 ",
+  "time" : {
+    "start" : 1626588979272,
+    "stop" : 1626588979770,
+    "duration" : 498
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
